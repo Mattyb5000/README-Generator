@@ -1,9 +1,18 @@
-# mattttttt
+# Matt's App
 ## Description
-descript
+
+it's my app it does what it does
+
+---
 ## Installation
-install
+
+Install it by installing it
+
+---
+### GitHub
 [mattyb5000](https://github.com/mattyb5000)
-<email@email>
+
+### Email
+<mbennett21484@gmail.com>
            
 ![license](https://img.shields.io/badge/license-MIT-blue) 
