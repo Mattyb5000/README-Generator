@@ -26,6 +26,16 @@ const questions = [{
   },
   {
     type: 'input',
+    name: 'contributing',
+    message: 'Enter information about how to contribute.',
+  },
+  {
+    type: 'input',
+    name: 'test',
+    message: 'How to test',
+  },
+  {
+    type: 'input',
     name: 'githubUsername',
     message: 'Enter your GitHub username'
   },
@@ -40,6 +50,8 @@ const questions = [{
     message: 'What kind of license do you want?',
     choices: ['MIT', 'Apache', 'name']
   }
+ 
+ 
 ];
 
 // TODO: Create a function to write README file
@@ -57,7 +69,6 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((response) => {
-    console.log(response);
     writeToFile('README.md', generateMarkdown(response))
   })
 }
