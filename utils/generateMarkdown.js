@@ -22,9 +22,6 @@ function generateMarkdown(data) {
 * [Contributing](#contributing)
 * [Test](#test)
 * [Questions](#questions)
-* [GitHub](#github)
-
-  
 
 <a name='Description'></a>
 ## Description
