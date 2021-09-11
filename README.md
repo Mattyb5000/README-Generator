@@ -2,9 +2,5 @@
 
 ## Description
 
-This is a README generator that takes information input from the command line using node and generates a custom README.
+Utilizing Node, Express and the Inquirer NPM package, users are prompted a series of questions to automatically build ReadMes. Simply initiate the app by typing nodemon in the command line, follow the prompts and answer the questions. Once all questions are answered, click the ReadMe.md file with your automatically generated ReadMe.
 
-## Video Demonstration
-You can find a demo of the README Generator here:
-
-[Link to demo video](https://drive.google.com/file/d/1fh5pfJ30ZAFvnT0ZIk1FvpWiLKwthuz-/view)
